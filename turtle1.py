@@ -1,0 +1,21 @@
+first_number = int(input("enter first number: "))
+operation = input("enter operation type: ")
+second_number = int(input("enter second number: "))
+if operation == "+":
+    print(first_number + second_number)
+elif operation  == "-":
+    print(first_number - second_number)
+elif operation  == "/":
+    print(first_number / second_number)
+else:
+    print(first_number * second_number)
+ 
+
+
+
+
+
+
+
+
+
