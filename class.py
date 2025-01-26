@@ -1,11 +1,16 @@
-class Parrot:
-    species = "bird"
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-blu = Parrot("Blu", 10)
-woo = Parrot("Woo", 15)
-print("Blu is a {}".format(blu.species))
-print("Woo is also a {}".format(woo.species))
-print("{} is {} years old".format(blu.name, blu.age))
-print("{} is {} years old".format(woo.name, woo.age))
+height = float(input("enter your height in cm: "))
+weight = float(input("enter your weight in kg: "))
+BMI = weight / (height/ 100)**2
+print("your BMI is", BMI)
+if BMI <=18.4: 
+    print("You are underweight.")
+elif BMI <=24.9:
+    print("You are healthy.")
+elif BMI <= 29.9:
+    print("You are overweight.")
+elif BMI <= 34.9:
+    print("You are severly overweight.")
+elif BMI <=39.9:
+    print("You are obese.")
+else:
+    print("You are severly obese.")
