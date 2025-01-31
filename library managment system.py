@@ -7,11 +7,11 @@ class Library:
 
     def displayBooks(self):
         print(f"We have the following books in our library: {self.name}")
-        for book in self.booksList:
+        for book in self.bookslist:
             print(book)
 
     def lendBook(self, user, book):
-        if book not in self.booksList:
+        if book not in self.booksl1ist:
             print("Sorry, we do not have that book.")
         elif book in self.lendDict:
             print(f"The book is already being used by {self.lendDict[book]}")
