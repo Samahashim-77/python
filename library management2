@@ -1,0 +1,7 @@
+class Library:
+    def __init__(self, list, name):
+        self.booksList = list
+        self.name = name
+        self.lendDict = {}
+    def displayBooks(self):
+        print(f"We have followin")

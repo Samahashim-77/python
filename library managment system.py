@@ -11,8 +11,10 @@ class Library:
             print(book)
 
     def lendBook(self, user, book):
-        if book not in self.booksl1ist:
-            print("Sorry, we do not have that book.")
+        if book not in
+         self.lendDict.keys():
+         self.lendDict.update({book:user})
+         print("Sorry, we do not have that book.")
         elif book in self.lendDict:
             print(f"The book is already being used by {self.lendDict[book]}")
         else:
