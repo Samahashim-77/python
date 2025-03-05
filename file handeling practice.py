@@ -1,3 +1,4 @@
-file = open("f1.txt")
-print(file.read())
-file.close()
+file_read=open("f1.txt", 'r')
+print("file in read mode -")
+print(file_read.read())
+file_read.close()
