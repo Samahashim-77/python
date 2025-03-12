@@ -1,0 +1,13 @@
+from tkinter import*
+window= Tk()
+window.title("Hellow every one")
+window.geometry('300x300')
+label1=Label(text= "Hellow", fg="blue", bg="white")
+label1.pack()
+button1= Button(text="click me", fg="black", bg="yellow")
+button1.pack()
+entry1=Entry(fg="brown", bg="black", width=50)
+entry1.pack()
+text1=Text(fg="red",bg="black" )
+text1.pack()
+window.mainloop()
